@@ -1,0 +1,8 @@
+---
+
+- name: Install pip modules
+  pip:
+      name: "{{ item }}"
+      state: present
+      executable: pip3
+  with_items: "{{ python_ml_packages | list }}"

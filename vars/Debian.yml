@@ -1,0 +1,12 @@
+---
+
+__python_ml_packages:
+    - tensorflow
+    - keras
+    - matplotlib
+    - ipython
+    - jupyter
+    - numpy
+    - pandas
+    - tensorboard
+    - jupyter-tensorboard
